@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.tittle{
+.boxcenter{
     font-family: 'Roboto';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tittle{
+  
     position: absolute;
     width: 208px;
     height: 24px;
-    left: 76px;
-    top: 280px;
+    top: 200px;
     font-size: 24px;
     line-height: 28px;
     display: flex;
@@ -16,12 +22,11 @@
 }
 
 .select{
-    font-family: 'Roboto';
+   
     position: absolute;
     width: 212px;
     height: 20px;
-    left: 72px;
-    top: 368px;
+    top: 280px;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
@@ -30,21 +35,18 @@
 }
 
 .btn-sup{
-    font-family: 'Roboto';
-    position: absolute;
+    
     width: 104px;
     height: 32px;
-    left: 125px;
-    top: 408px;
-    font-weight: bold;
+    top: 328px;
+    left: 50px;
+    
 }
 
 .btn-inf{
-    font-family: 'Roboto';
-    position: absolute;
     width: 104px;
-    height: 32px;
-    left: 20px;
-    top: 456px;
+    height: 32px; 
+    top: 376px;
+    left: -53px;
 }
 

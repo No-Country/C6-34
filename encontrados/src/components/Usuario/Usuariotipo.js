@@ -1,10 +1,12 @@
 import './Usuariotipo.css';
-import { Flex, Box, Button} from '@chakra-ui/react'
+import { Button} from '@chakra-ui/react'
 import { Link } from "react-router-dom";
 const Usuariotipo = () =>{
     
     return(
-            <Box>
+        <>
+       
+            <div className='boxcenter'>
                 <h1 className='tittle'>Encontrados</h1>
                 <p className='select'>Selecciona tu tipo de usuario</p>
                 <Link to="/register">
@@ -13,7 +15,8 @@ const Usuariotipo = () =>{
                 <Link to="/register">
                     <Button className='btn-inf' bg='brand.secondary'>USUARIO</Button>
                 </Link>
-            </Box>
+            </div>
+        </>
     )
 }
 export default Usuariotipo;
