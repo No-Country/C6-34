@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route} from "react-router-dom";
-import { Register } from './pages/Register/Register.js';
-import Usuario from './components/Usuariotipo';
+import { Register } from './components/Register/Register';
+import Usuario from './components/Usuariotipo/Usuariotipo';
 
 function App() {
   return (

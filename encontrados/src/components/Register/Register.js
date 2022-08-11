@@ -1,6 +1,6 @@
 import {FastField, Form, Formik} from 'formik'
 import {useNavigate} from 'react-router-dom'
-import { CameraIcon } from '../../utils/svg/Svg';
+import { CameraIcon } from '../../tools/svg/Svg';
 import {
   Circle,
   Flex,
@@ -43,7 +43,7 @@ export function Register() {
         onSubmit={handleSubmit}
       >
         <Form className="flex flex-col space-y-4">
-        <FormControl display="flex" flexDirection="column"  textAlign="center" justifyContent='center' rounded='md' bg='white' p="24px" w="100vh" maxW="520px" borderRadius="24px" >
+        <FormControl display="flex" flexDirection="column"  textAlign="center" justifyContent='center' rounded='md' bg='white' p="24px" w="100vh" maxW="280px" borderRadius="24px" >
           <Heading as='h1' mb="32px" fontSize='24px' fontWeight="normal" textAlign="left" color='#000000'>Introduce tus datos</Heading>
           <FastField name="name">
             {({field, meta}) => (
