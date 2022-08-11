@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//styles
 import './App.css';
 //tools
 import { Routes, Route} from "react-router-dom";
