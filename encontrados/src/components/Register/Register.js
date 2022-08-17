@@ -133,6 +133,6 @@ export function Register() {
   function handleSubmit(values, formikBag) {
     console.log(values)
 
-    //navigate('/')
+    navigate('/')
   }
 }
