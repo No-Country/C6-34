@@ -1,5 +1,5 @@
 import { FormControl, Input, Heading, Text, Flex, Button} from '@chakra-ui/react';
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import {useFormik} from 'formik';
 
 
@@ -19,6 +19,7 @@ const validate = values => {
   };
 
 export const Login = () => {
+    const navigate = useNavigate()
 
     const formik = useFormik({
         initialValues:{
@@ -28,6 +29,7 @@ export const Login = () => {
         validate,
         onSubmit: values => {
             console.log(values)
+            navigate('/')
           },
     });
 
