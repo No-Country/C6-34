@@ -22,8 +22,8 @@ const Home = () => {
           </Flex>
           <Text py={2}>Cerca de tu zona</Text>
           <Image
-            w='312'
-            h='200'
+            w='312px'
+            h='200px'
             objectFit='cover'
             src="https://i.ibb.co/sJMjgdT/map.png"
             alt='map'
@@ -46,8 +46,8 @@ const Home = () => {
           </Flex>
           <Text py={2}>Cerca de tu zona</Text>
           <Image
-            w='312'
-            h='200'
+            w='312px'
+            h='200px'
             objectFit='cover'
             src="https://i.ibb.co/6nbVHh1/caba.jpg"
             alt='caba'
