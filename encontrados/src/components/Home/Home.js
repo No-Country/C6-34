@@ -7,6 +7,7 @@ import {
   Image,
   Box,
 } from "@chakra-ui/react";
+import { Map } from "../Map/Map";
 import { UserIcon, IconMessage } from "../../tools/svg/Svg";
 
 const Home = () => {
@@ -23,14 +24,7 @@ const Home = () => {
             </Box>
           </Flex>
           <Text py={2}>Cerca de tu zona</Text>
-          <Image
-            w="312px"
-            h="200px"
-            objectFit="cover"
-            src="https://i.ibb.co/sJMjgdT/map.png"
-            alt="map"
-            borderRadius={10}
-          />
+          <Map/>
         </VStack>
         <VStack w="full" h="full" p={3} alignItems="flex-start">
           <Flex alignItems="center">
