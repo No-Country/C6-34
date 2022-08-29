@@ -5,6 +5,7 @@ import { Routes, Route} from "react-router-dom";
 //components
 import { Login } from './components/login/login.jsx';
 import { Register } from './components/Register/Register';
+import { EditUser } from './components/Register/EditUser';
 import Usuariotipo from './components/Usuario/Usuariotipo';
 import Home from './components/Home/Home'; 
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="login" element={<Login/>} />
           <Route path="register" element={<Register/>} />
+          <Route path="editUser/:id" element={<EditUser/>} />
           <Route path="usuario" element={<Usuariotipo/>} />
         </Routes>
   );
