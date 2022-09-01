@@ -56,7 +56,7 @@ export const Login = () => {
                     </FormControl>
                     <Text as='ins'>¿Olvidaste tu contraseña?  Ingresa aquí</Text>
                     <Button type="submit" colorScheme='gray' w={"104px"} h={"32px"} my={6} textTransform="uppercase">Ingresar</Button>
-                    <Text as='ins'>¿No tienes cuenta? <Link to="/usuario">Registrate</Link></Text>
+                    <Text as='ins'>¿No tienes cuenta? <Link to="/user">Registrate</Link></Text>
                 </Flex>
             </Flex>
         </form>

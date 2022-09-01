@@ -1,51 +1,47 @@
-import {
-  Container,
-  Flex,
-  Heading,
-  VStack,
-  Text,
-  Image,
-  Box,
-} from "@chakra-ui/react";
+import { Container, Flex, Heading, VStack, Text, Box} from "@chakra-ui/react";
 import { Map } from "../Map/Map";
-import { UserIcon, IconMessage } from "../../tools/svg/Svg";
+import { UserIcon, IconMessage, LocationIcon } from "../../tools/svg/Svg";
+import Card from "../Card/Card";
+import Menu from "../Menu/Menu";
+import Comments from "../Comments/Comments";
 
 const Home = () => {
   return (
-    <Container maxW="360px" p={0}>
-      <Flex h="100vh" py={25} flexDirection="column">
-        <VStack w="full" h="full" p={3} alignItems="flex-start">
-          <Heading size="md">ENCONTRADOS</Heading>
-          <Flex alignItems="center">
-            <UserIcon w={6} h={6} />
-            <Text p={2}>Usuario 1</Text>
-            <Box pl="12rem">
+    <>
+      <Container maxW="sm">
+        <Flex flexDirection="column">
+          <VStack w="full" h="full" p={3} alignItems="flex-start">
+            <Heading size="md" id='titleid'>ENCONTRADOS</Heading>
+            <Flex alignItems="center" w="100%" justifyContent="space-between">
+              <Box display="flex" alignItems="center">
+                <UserIcon w={6} h={6} />
+                <Text p={2}>Usuario 1</Text>
+              </Box>
               <IconMessage w={6} h={6} />
-            </Box>
-          </Flex>
-          <Text py={2}>Cerca de tu zona</Text>
-          <Map/>
-        </VStack>
-        <VStack w="full" h="full" p={3} alignItems="flex-start">
-          <Flex alignItems="center">
-            <UserIcon w={6} h={6} />
-            <Text p={2}>Usuario 2</Text>
-            <Box pl="12rem">
+            </Flex>
+            <Text py={2}>Cerca de tu zona</Text>
+            <Map />
+          </VStack>
+          <VStack w="full" h="full" p={3} alignItems="flex-start">
+            <Flex alignItems="center" w="100%" justifyContent="space-between">
+              <Box display="flex" alignItems="center">
+                <UserIcon w={6} h={6} />
+                <Text p={2}>Usuario 2</Text>
+              </Box>
               <IconMessage w={6} h={6} />
+            </Flex>
+            <Box display="flex" alignItems="center">
+              <LocationIcon w={4} h={4} />
+              <Text p={2}>CABA, Buenos Aires, Argentina</Text>
             </Box>
-          </Flex>
-          <Text py={2}>Cerca de tu zona</Text>
-          <Image
-            w="312px"
-            h="200px"
-            objectFit="cover"
-            src="https://i.ibb.co/6nbVHh1/caba.jpg"
-            alt="caba"
-            borderRadius={10}
-          />
-        </VStack>
-      </Flex>
-    </Container>
+            <Card />
+            <Comments currentUserId="1"/>
+           
+          </VStack>
+        </Flex>
+        <Menu/>
+      </Container>
+    </>
   );
 };
 export default Home;
