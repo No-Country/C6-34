@@ -6,19 +6,23 @@ import { Routes, Route} from "react-router-dom";
 import { Login } from './components/login/login.jsx';
 import { Register } from './components/Register/Register';
 import { EditUser } from './components/Register/EditUser';
-import Usuariotipo from './components/Usuario/Usuariotipo';
-import Home from './components/Home/Home'; 
-
+import Usertype from './components/User/Usertype';
+import Home from './components/Home/Home';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
+    <div>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/home" element={<Home/>} />
           <Route path="login" element={<Login/>} />
           <Route path="register" element={<Register/>} />
           <Route path="editUser/:id" element={<EditUser/>} />
-          <Route path="usuario" element={<Usuariotipo/>} />
+          <Route path="user" element={<Usertype/>} />      
         </Routes>
+    </div>
   );
 }
 export default App;
