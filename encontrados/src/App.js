@@ -16,7 +16,6 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/home" element={<Home/>} />
           <Route path="login" element={<Login/>} />
           <Route path="register" element={<Register/>} />
           <Route path="editUser/:id" element={<EditUser/>} />
