@@ -35,8 +35,8 @@ export const Login = () => {
     });
 
   return (
-    <Container maxW="sm">
-       <Flex direction="column" w="90vw" justify="center" alignItems="center" mb="0" pb={0}>
+    <Container maxW="sm" mb="0" pb="0">
+       <Flex direction="column" w="90vw" maxW="509px" justify="center" alignItems="center" mb="0" pb="0">
         <form onSubmit={formik.handleSubmit}>
             <Flex w="100vw" h="90vh" justify="center" alignItems="center">
                 <Flex direction="column" align="center" w="509px" h="90vh" justify="center" alignItems="center">
@@ -63,7 +63,7 @@ export const Login = () => {
                 </Flex>
             </Flex>
         </form>
-        <Menu/>
+        <Menu mb="0" pb="0"/>
         </Flex>
       </Container>
   )

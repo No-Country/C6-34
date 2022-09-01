@@ -55,7 +55,7 @@ export function Register() {
       avatar: image64,
       username: values.user,
     }
-    await addUser(data)
+    //await addUser(data)
     navigate('/')
   }
 
