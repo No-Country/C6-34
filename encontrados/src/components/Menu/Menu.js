@@ -14,7 +14,7 @@ const Menu = () => {
         bottom="0"
         w='100%'
       >
-        <Link to="/home" >
+        <Link to="/" >
         <HomeIcon w={6} h={6} />
         </Link>
         <LocationIcon w={6} h={6} />
