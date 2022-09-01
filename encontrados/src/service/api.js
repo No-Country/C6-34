@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 
-const url = "https://encontrados-production.up.railway.app:3003/user";
+const url = "https://localhost:3003/user";
+
 
 export const getUserById = async (id) => {
     id = id || '';
