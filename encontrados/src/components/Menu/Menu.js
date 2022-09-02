@@ -1,11 +1,11 @@
-import { Flex } from "@chakra-ui/react";
-import { UserIcon, HomeIcon, AddIcon, LocationIcon } from "../../tools/svg/Svg";
+import { Container, Flex } from "@chakra-ui/react";
+import { HomeIcon, AddIcon, LocationIcon } from "../../tools/svg/Svg";
 import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
     <>
-    
+    <Container maxW='sm'  p='0'>
       <Flex
         alignItems="center"
         bg="brand.secondary"
@@ -14,16 +14,14 @@ const Menu = () => {
         bottom="0"
         w='100%'
       >
-        <Link to="/home" >
+        <Link to="/" >
         <HomeIcon w={6} h={6} />
         </Link>
-        <LocationIcon w={6} h={6} />
         <AddIcon w={6} h={6} />
-        <Link to='/login'>
-        <UserIcon w={6} h={6} />
-        </Link>
+        <LocationIcon w={6} h={6} />
+        
       </Flex>
-      
+      </Container>
     </>
   );
 };
