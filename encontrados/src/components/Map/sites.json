@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "Code": "FRLA",
+        "Name": "Obelisco de Buenos Aires"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6037547,
+            -58.3819857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "Code": "GLDE",
+        "Name": "Plaza de la República"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6037558,
+            -58.3819669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "Code": "JOFI",
+        "Name": "Teatro Broadway - Paraná Seguros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6036501,
+            -58.3836111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "Code": "LONG",
+        "Name": "Sagrado Corazon Medical Center OSECAC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6035833,
+            -58.3839531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "Code": "ROWI",
+        "Name": "Teatro Gran Rex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6032091,
+            -58.3862169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "Code": "WORI",
+        "Name": "Teatro Colón"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6032091,
+            -58.3862169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "Code": "WORI",
+        "Name": "KFC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.604302,
+            -58.3819683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "Code": "WORI",
+        "Name": "Keller bier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.604302,
+            -58.3819683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "Code": "WORI",
+        "Name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6046201,
+            -58.3844848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "Code": "WORI",
+        "Name": "Subway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -34.6034111,
+            -58.3846267
+        ]
+      }
+    }
+ ]
+}
