@@ -1,5 +1,5 @@
 import React, { useEffect, useState }  from 'react';
-import { editUser, getUserById } from '../../service/api';
+import { editUser, getUserById, getAll, ax } from '../../service/api';
 import {useNavigate, useParams} from 'react-router-dom'
 
 import {Form, Formik} from 'formik'
@@ -30,8 +30,8 @@ export function EditUser() {
   },[])
 
   const loadUserData = async () => {
-    const response = await getUserById(id);
-    setUser(response.data)
+    const res = await getUserById(id);  
+    setUser(res[0])
   }
 
    const fileSelectedHandler = event => {
@@ -59,13 +59,10 @@ export function EditUser() {
    const  onValueChange = (e) =>
    {
      setUser({...user, [e.target.name]: e.target.value});
-     console.log(user)
-     console.log(e.target.name)
    }
 
   const editUserDetails = async (values) => {
     const image64 = document.querySelector(".PreviewImage").getAttribute('src')
-    console.log(image64)
     const user = {
       email: email,
       name: name,
@@ -75,6 +72,7 @@ export function EditUser() {
       username: username,
     }
     await editUser(id, user)
+    console.log(id)
     console.log(user)
     navigate('/')
   }
