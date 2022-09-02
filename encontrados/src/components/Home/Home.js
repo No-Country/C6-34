@@ -1,9 +1,9 @@
-import { Container, Flex, Heading, VStack, Text, Box} from "@chakra-ui/react";
+import { Container, Flex, VStack, Text, Box} from "@chakra-ui/react";
 import { Map } from "../Map/Map";
 import { UserIcon, IconMessage, LocationIcon } from "../../tools/svg/Svg";
 import Card from "../Card/Card";
-import Menu from "../Menu/Menu";
 import Comments from "../Comments/Comments";
+
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <Container maxW="sm">
         <Flex flexDirection="column">
           <VStack w="full" h="full" p={3} alignItems="flex-start">
-            <Heading size="md" id='titleid'>ENCONTRADOS</Heading>
+           
             <Flex alignItems="center" w="100%" justifyContent="space-between">
               <Box display="flex" alignItems="center">
                 <UserIcon w={6} h={6} />
@@ -36,10 +36,9 @@ const Home = () => {
             </Box>
             <Card />
             <Comments currentUserId="1"/>
-           
           </VStack>
         </Flex>
-        <Menu/>
+        
       </Container>
     </>
   );

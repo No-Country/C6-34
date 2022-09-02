@@ -64,9 +64,7 @@ export function Register() {
     direction={'row'} 
     borderRadius='24px' 
     spacing='0' 
-    w="98%" 
     my="1vh" 
-    mx='auto' 
     minH='98vh'
     justifyContent='center'
     alignItems='center'
@@ -85,7 +83,7 @@ export function Register() {
         onSubmit={onSubmitValues}
       >
         <Form className="flex flex-col space-y-4">
-        <FormControl display="flex" flexDirection="column"  textAlign="center" justifyContent='center' rounded='md' bg='white' p="24px" w="100vh" maxW="280px" borderRadius="24px" >
+        <FormControl display="flex" flexDirection="column"  textAlign="center" justifyContent='center' rounded='md' bg='white' p="24px" w="70vh"  borderRadius="24px" >
           <Heading as='h1' mb="32px" fontSize='24px' fontWeight="normal" textAlign="left" color='#000000'>Introduce tus datos</Heading>
           <FastField name="name" >
             {({field, meta}) => (
@@ -175,5 +173,4 @@ export function Register() {
       </Formik>
     </Flex>
   )
-  
 }

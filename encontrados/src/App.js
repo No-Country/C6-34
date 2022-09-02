@@ -9,11 +9,14 @@ import { EditUser } from './components/Register/EditUser';
 import Usertype from './components/User/Usertype';
 import Home from './components/Home/Home';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Menu from './components/Menu/Menu';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
         <ScrollToTop />
+        <Header/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="login" element={<Login/>} />
@@ -21,6 +24,7 @@ function App() {
           <Route path="editUser/:id" element={<EditUser/>} />
           <Route path="user" element={<Usertype/>} />      
         </Routes>
+        <Menu/>
     </div>
   );
 }
