@@ -15,6 +15,7 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div>
+        
         <ScrollToTop />
         <Header/>
         <Routes>
@@ -22,7 +23,7 @@ function App() {
           <Route path="login" element={<Login/>} />
           <Route path="register" element={<Register/>} />
           <Route path="editUser/:id" element={<EditUser/>} />
-          <Route path="user" element={<Usertype/>} />      
+          <Route path="user" element={<Usertype/>} />
         </Routes>
         <Menu/>
     </div>

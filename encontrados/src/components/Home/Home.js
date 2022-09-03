@@ -4,7 +4,6 @@ import { UserIcon, IconMessage, LocationIcon } from "../../tools/svg/Svg";
 import Card from "../Card/Card";
 import Comments from "../Comments/Comments";
 
-
 const Home = () => {
   return (
     <>

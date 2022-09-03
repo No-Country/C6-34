@@ -16,3 +16,17 @@
   .PreviewImage.showPreview{
     opacity: 1;
   }
+
+  .PreviewImage2{
+    
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    }
+  
+    .PreviewImage2.showPreview2{
+      opacity: 1;
+    }
