@@ -28,7 +28,9 @@ const Menu = () => {
         <AddIcon w={6} h={6} />
         </div>
         <ModalPosts isOpen={modal} onClose={()=>setModal(false)}></ModalPosts>
+        <Link to="/places" >
         <LocationIcon w={6} h={6} />
+        </Link>
         
       </Flex>
       </Container>

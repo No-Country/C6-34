@@ -1,5 +1,4 @@
 import React, { useState }  from 'react';
-import { addUser } from '../../service/api';
 import {useNavigate} from 'react-router-dom'
 
 import {FastField, Form, Formik} from 'formik'
@@ -15,7 +14,6 @@ import {
   Select,
   FormLabel,
   Heading,
-  Img,
 } from '@chakra-ui/react';
 
 
@@ -83,7 +81,7 @@ export function Register() {
         onSubmit={onSubmitValues}
       >
         <Form className="flex flex-col space-y-4">
-        <FormControl display="flex" flexDirection="column"  textAlign="center" justifyContent='center' rounded='md' bg='white' p="24px" w="70vh"  borderRadius="24px" >
+        <FormControl id="chatel" display="flex" flexDirection="column" w='390px' textAlign="center" justifyContent='center'  rounded='md' bg='white' width="390px" p="24px" borderRadius="24px" >
           <Heading as='h1' mb="32px" fontSize='24px' fontWeight="normal" textAlign="left" color='#000000'>Introduce tus datos</Heading>
           <FastField name="name" >
             {({field, meta}) => (

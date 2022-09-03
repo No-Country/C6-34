@@ -27,7 +27,6 @@ export const Login = () => {
         },
         validate,
         onSubmit: values => {
-            console.log(values)
             navigate('/')
           },
     });

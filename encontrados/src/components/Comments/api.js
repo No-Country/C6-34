@@ -3,7 +3,7 @@ export const getComments = async () =>
    return [
         {
             id:'1',
-            body:'Primer comentario',
+            body:'Excelente atención. Definitivamente super recomendado',
             username:'Juan',
             userId:'1',
             parentId:null,
@@ -11,7 +11,7 @@ export const getComments = async () =>
         },
         {
             id:'2',
-            body:'Segundo comentario',
+            body:'Experiencia 5 estrellas tanto por la calidad del servicio. ',
             username:'Carlos',
             userId:'2',
             parentId:null,
@@ -19,7 +19,7 @@ export const getComments = async () =>
         },
         {
             id:'3',
-            body:'Primer comentario hijo',
+            body:'¡Muchas gracias! Nos alegramos que haya disfrutado de su estadía y le esperamos de regreso muy pronto.',
             username:'Carlos',
             userId:'2',
             parentId:'1',

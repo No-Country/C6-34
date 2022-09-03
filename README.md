@@ -31,4 +31,4 @@
 
 ## Deploy
 
-[Encontrados](https://encontrados-production.up.railway.app/)
+[Encontrados](https://encontrados.up.railway.app/)

@@ -3,6 +3,7 @@ import { Map } from "../Map/Map";
 import { UserIcon, IconMessage, LocationIcon } from "../../tools/svg/Svg";
 import Card from "../Card/Card";
 import Comments from "../Comments/Comments";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
             <Flex alignItems="center" w="100%" justifyContent="space-between">
               <Box display="flex" alignItems="center">
                 <UserIcon w={6} h={6} />
-                <Text p={2}>Usuario 1</Text>
+                <Text p={2}>Juan Perez</Text>
               </Box>
               <IconMessage w={6} h={6} />
             </Flex>
@@ -22,18 +23,20 @@ const Home = () => {
             <Map />
           </VStack>
           <VStack w="full" h="full" p={3} alignItems="flex-start">
-            <Flex alignItems="center" w="100%" justifyContent="space-between">
+            {/* <Flex alignItems="center" w="100%" justifyContent="space-between">
               <Box display="flex" alignItems="center">
                 <UserIcon w={6} h={6} />
                 <Text p={2}>Usuario 2</Text>
               </Box>
               <IconMessage w={6} h={6} />
-            </Flex>
+            </Flex> */}
             <Box display="flex" alignItems="center">
               <LocationIcon w={4} h={4} />
               <Text p={2}>CABA, Buenos Aires, Argentina</Text>
             </Box>
-            <Card />
+            <Link to="/place/1">
+              <Card />
+            </Link>
             <Comments currentUserId="1"/>
           </VStack>
         </Flex>
