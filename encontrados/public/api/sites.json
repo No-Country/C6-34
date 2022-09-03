@@ -1,13 +1,65 @@
 [
   {
-    "email": "escuderopriscila2@gmail.com",
-    "name": "Sandino Montano",
-    "phone": "1234564",
-    "country": "Brasil",
-    "avatar": "C:\\fakepath\\141.png",
-    "username": "dedsdew",
-    "password": "12345678",
-    "passwordConfirm": "12345679",
-    "id": 3
+    "id": 1,
+    "imageUrl": "https://i.ibb.co/6nbVHh1/caba.jpg",
+    "imageAlt": "Obelisco de Buenos Aires",
+    "title": "Obelisco de Buenos Aires",
+    "description": "Monumento histórico considerado un ícono de la Ciudad Autónoma de Buenos Aires",
+    "reviewCount": 50,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipP8R3OD5XENCu974YJuF-cdx-RjfwbubzQDETE5=w408-h541-k-no",
+    "imageAlt": "Plaza de la República",
+    "title": "Plaza de la República",
+    "description": "La Plaza de la República está ubicada en la intersección de las avenidas 9 de Julio y Corrientes, está rodeada por varias pantallas de LED y Neón que animan la ciudad de Buenos Aires, Argentina.",
+    "reviewCount": 50,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipP6AHrJm4oq2uLu7f0IidFKM5dnppIYy1H1u18P=w600-h650-p-k-no",
+    "imageAlt": "Teatro Broadway - Paraná Seguros",
+    "title": "Teatro Broadway - Paraná Seguros",
+    "description": "El Teatro Broadway es uno de los teatros emblemáticos de la Avenida Corrientes, en Buenos Aires. Es un edificio representativo de la corriente porteña del art decó, y fue restaurado en 1999 para alojar en sus pisos superiores al Hotel Broadway Buenos Aires.",
+    "reviewCount": 40,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipM3S0I3KaiDqs5dOFrVrSr-ysC7Vyp9mZncoy9w=w600-h650-p-k-no",
+    "imageAlt": "Teatro Gran Rex",
+    "title": "Teatro Gran Rex",
+    "description": "El Gran Rex es un teatro ubicado en la Avenida Corrientes, a menos de 200 metros del Obelisco de Buenos Aires, Argentina. Es uno de los grandes teatros del mundo y con mayor capacidad de Sudamérica y forma un corredor junto al Ópera y al Tabarís, que funcionan en la misma cuadra.",
+    "reviewCount": 50,
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMVk145ZRz3vYYpwhe9ortMG8zGQdy7sezP4zb_=w600-h321-p-k-no",
+    "imageAlt": "Teatro Colón",
+    "title": "Teatro Colón",
+    "description": "El Teatro Colón inició sus actividades en 1857 en un edificio ubicado en la Plaza de Mayo, donde funcionó hasta 1888. El teatro se mudó entonces al edificio actual ubicado frente a la Plaza Vaticano, que tardó 20 años en ser construido hasta su inauguración en 1908.",
+    "reviewCount": 30,
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipPh4AZM0RlINtNIk7EdMVF1Lsw9exlXY5jwOA29=w600-h988-p-k-no",
+    "imageAlt": "Keller bier",
+    "title": "Keller bier",
+    "description": "En este sotano cervecero no es todo birra! También tenemos una variedad de tragos de autor para todos los paladares",
+    "reviewCount": 20,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-o/0a/05/7c/6a/starbucks.jpg",
+    "imageAlt": "Starbucks",
+    "title": "Starbucks",
+    "description": "Cadena de cafeterías de Seattle famosa por su café tostado, bocados ligeros y disponibilidad de Wi‑Fi.",
+    "reviewCount": 50,
+    "rating": 4
   }
 ]

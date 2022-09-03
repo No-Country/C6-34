@@ -18,7 +18,9 @@ const Menu = () => {
         <HomeIcon w={6} h={6} />
         </Link>
         <AddIcon w={6} h={6} />
+        <Link to="/places" >
         <LocationIcon w={6} h={6} />
+        </Link>
         
       </Flex>
       </Container>

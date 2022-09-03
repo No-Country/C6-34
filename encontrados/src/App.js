@@ -11,6 +11,8 @@ import Home from './components/Home/Home';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Menu from './components/Menu/Menu';
 import Header from './components/Header/Header';
+import PlaceList from './components/Places/PlaceList';
+import Place from './components/Places/Place';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           <Route path="login" element={<Login/>} />
           <Route path="register" element={<Register/>} />
           <Route path="editUser/:id" element={<EditUser/>} />
-          <Route path="user" element={<Usertype/>} />      
+          <Route path="user" element={<Usertype/>} />    
+          <Route path='places' element={<PlaceList/>} />  
+          <Route path='place/:id' element={<Place/>} />  
         </Routes>
         <Menu/>
     </div>
