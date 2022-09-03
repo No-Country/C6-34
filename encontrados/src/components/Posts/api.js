@@ -4,7 +4,7 @@ export const getPosts = async () =>
    return [
         {
             id:'1',
-            image:'image',
+            image:'./images/caba.jpg',
             title: 'new post',
             body:'post uno',
             parentId:null,
@@ -15,7 +15,7 @@ export const getPosts = async () =>
         },
         {
             id:'2',
-            image:"image",
+            image:'./images/caba.jpg',
             title: 'new post',
             body:'post dos',
             parentId:null,
