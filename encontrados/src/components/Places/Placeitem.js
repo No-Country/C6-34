@@ -2,14 +2,16 @@ import React from 'react'
 import {Box,Image,Badge} from "@chakra-ui/react";
 import {StarIcon} from '@chakra-ui/icons'
 import { Link } from "react-router-dom";
+import {Flex} from '@chakra-ui/react';
 
 
 function Placeitem({places}) {
   return (
     <div>
          {places.map((place)=>(  
-            <Link to={{pathname: `/place/${place.id}`}} key={place.id} >              
-                <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' >
+              <Link to={{pathname: `/place/${place.id}`}} key={place.id} >              
+                <Flex justifyContent="center">                
+                <Box maxW='sm' borderWidth='1px' borderRadius='lg' mt="12px" overflow='hidden' >
                  <Image src={place.imageUrl} alt={place.imageAlt} />
            
                  <Box p='6'>
@@ -62,6 +64,7 @@ function Placeitem({places}) {
                    </Box>
                  </Box>
                </Box>
+                </Flex>
                </Link>  
             ))}
     </div>

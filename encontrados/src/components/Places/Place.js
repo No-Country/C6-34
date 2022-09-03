@@ -1,7 +1,7 @@
 import React, { useEffect, useState }  from 'react';
 import { getPlaceById} from '../../service/places';
-import {useNavigate, useParams} from 'react-router-dom'
-import {Box,Image,Badge} from "@chakra-ui/react";
+import { useParams} from 'react-router-dom'
+import {Box,Image, Flex} from "@chakra-ui/react";
 import {StarIcon} from '@chakra-ui/icons'
 import Comments from '../Comments/Comments';
 
@@ -21,7 +21,8 @@ function Place() {
 
 
   return (
-    <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' >
+    <Flex justifyContent="center">
+          <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' >
     <Image src={place.imageUrl} alt={place.imageAlt} />
 
     <Box p='6'>
@@ -74,7 +75,8 @@ function Place() {
     <Box maxW="90vw" mx="auto">
         <Comments currentUserId="1"/>
     </Box>
-  </Box>
+    </Box>
+    </Flex>
   )
 }
 

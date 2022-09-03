@@ -3,6 +3,7 @@ import { Map } from "../Map/Map";
 import { UserIcon, IconMessage, LocationIcon } from "../../tools/svg/Svg";
 import Card from "../Card/Card";
 import Comments from "../Comments/Comments";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -34,7 +35,9 @@ const Home = () => {
               <LocationIcon w={4} h={4} />
               <Text p={2}>CABA, Buenos Aires, Argentina</Text>
             </Box>
-            <Card />
+            <Link to="/place/1">
+              <Card />
+            </Link>
             <Comments currentUserId="1"/>
           </VStack>
         </Flex>
