@@ -12,11 +12,8 @@ export const allPlaces = async () => {
 
 export const getPlaceById = async (id) => {
     id = id || '';
-    console.log(id)
     const res = await places.get();
-    console.log(res)
     let placeData = res.data.filter(u => u.id == id)  
-    console.log(placeData)  
     return placeData    
 }
 
